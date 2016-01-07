@@ -1,0 +1,29 @@
+# pandas People
+
+## Benevolent Dictator for Life
+
+Wes McKinney is the Benevolent Dictator for Life (BDFL).
+
+## Project Core Developers
+
+- Tom Augspurger
+- Phillip Cloud
+- Andy Hayden
+- Stephan Hoyer
+- Thomas Kluyver
+- Wes McKinney
+- Wouter Overmeire
+- Jeff Reback
+- Skipper Seabold
+- Chang She
+- Sinhrks
+- Jeff Tratner
+- Joris Van den Bossche
+
+## Project NumFOCUS Board
+
+- Phillip Cloud
+- Stephan Hoyer
+- Wes McKinney
+- Jeff Reback
+- Joris Van den Bossche
