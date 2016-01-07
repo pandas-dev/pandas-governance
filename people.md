@@ -4,7 +4,7 @@
 
 Wes McKinney is the Benevolent Dictator for Life (BDFL).
 
-## Project Core Developers
+## Project Core Team
 
 - Tom Augspurger
 - Phillip Cloud
