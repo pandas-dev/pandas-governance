@@ -75,7 +75,7 @@ With this in mind, the following banner should be used in any source code
 file to indicate the copyright and license terms:
 
 	# Copyright (c) pandas Development Team.
-	# Distributed under the terms of the Modified BSD License.
+	# Distributed under the terms of the Simplified BSD License.
 
 Other licenses can be found in the LICENSES directory of the main pandas
 repository http://github.com/pydata/pandas.
