@@ -81,9 +81,9 @@ Wes McKinney. As Dictator, the BDFL has the authority to make all final
 decisions for The Project. As Benevolent, the BDFL, in practice chooses to
 defer that authority to the consensus of the community discussion channels and
 the Core Team. It is expected, and in the past has been the case, that the BDFL
-will only rarely assert his/her final authority. Because rarely used, we refer
-to BDFL’s final authority as a “special” or “overriding” vote. When it does
-occur, the BDFL override typically happens in situations where there is a
+will only rarely assert his/her final authority. Because it is rarely used, we
+refer to BDFL’s final authority as a “special” or “overriding” vote. When it
+does occur, the BDFL override typically happens in situations where there is a
 deadlock in the Core Team or if the Core Team ask the BDFL to make a decision
 on a specific matter. To ensure the benevolence of the BDFL, The Project
 encourages others to fork the project if they disagree with the overall
