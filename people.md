@@ -10,7 +10,6 @@ Wes McKinney is the Benevolent Dictator for Life (BDFL).
 - Phillip Cloud
 - Andy Hayden
 - Stephan Hoyer
-- Thomas Kluyver
 - Wes McKinney
 - Wouter Overmeire
 - Jeff Reback
@@ -20,7 +19,7 @@ Wes McKinney is the Benevolent Dictator for Life (BDFL).
 - Jeff Tratner
 - Joris Van den Bossche
 
-## Project NumFOCUS Board
+## Project NumFOCUS Board and Subcommittee
 
 - Phillip Cloud
 - Stephan Hoyer

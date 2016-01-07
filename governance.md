@@ -11,8 +11,8 @@ The Project
 
 The pandas Project (The Project) is an open source software project affiliated
 with the 501c3 NumFocus Foundation. The goal of The Project is to develop open
-source software and deploy open and public websites and services for
-reproducible, exploratory and interactive computing. The Software developed by
+source software for data ingest, data preparation, data analysis, and data
+visualization for the Python programming language. The Software developed by
 The Project is released under the BSD (or similar) open source license,
 developed openly and hosted in public GitHub repositories under the [PyData
 GitHub organization](https://github.com/pydata). Examples of Project Software
@@ -135,7 +135,7 @@ In particular, the Core Team may:
 
 To become eligible for being a Core Team Member an individual must be a Project
 Contributor who has produced contributions that are substantial in quality and
-quantity, and sustained over at least one year. Potential Core Team are
+quantity, and sustained over at least one year. Potential Core Team Members are
 nominated by existing Core members and voted upon by the existing Core Team
 after asking if the potential Member is interested and willing to serve in that
 capacity. The Core Team will be initially formed from the set of existing
@@ -196,6 +196,42 @@ sparingly and only when a specific matter requires privacy. When private
 communications and decisions are needed, the Core Team will do its best to
 summarize those to the Community after eliding personal/private/sensitive
 information that should not be posted to the public internet.
+
+### Subcommittees
+
+The Core Team can create subcommittees that provide leadership and guidance for
+specific aspects of the project. Like the Core Team as a whole, subcommittees
+should conduct their business in an open and public manner unless privacy is
+specifically called for. Private subcommittee communications should happen on
+the main private mailing list of the Core Team unless specifically called for.
+
+Question: if the BDFL is not on a subcommittee, do they still have override
+authority?
+
+Suggestion: they do, but they should appoint a delegate who plays that role
+most of the time, and explicit BDFL intervention is sought only if the
+committee disagrees with that delegate’s decision and no resolution is possible
+within the team. This is different from a BDFL delegate for a specific decision
+(or a recusal situation), where the BDFL is literally giving up his/her
+authority to someone else in full. It’s more like what Linus Torvalds uses with his
+“lieutenants” model.
+
+### NumFOCUS Subcommittee
+
+The Core Team will maintain one narrowly focused subcommittee to manage its
+interactions with NumFOCUS.
+
+- The Project NumFOCUS Board is comprised of 5 persons who manage project
+  funding that comes through NumFOCUS. It is expected that these funds will
+  be spent in a manner that is consistent with the non-profit mission of
+  NumFOCUS and the direction of the Project as determined by the full
+  Core Team.
+- This Subcommittee shall NOT make decisions about the direction, scope or
+  technical direction of the Project.
+- This Subcommittee will have 5 members. No more than 2 Subcommitee Members can
+  report to one person through employment or contracting work (including the
+  reportee, i.e. the reportee + 1 is the max). This avoids effective
+  majorities resting on one person.
 
 Institutional Partners and Funding
 ==================================
