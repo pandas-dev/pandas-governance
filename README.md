@@ -10,6 +10,7 @@ development and work that may be funded by for-profit or non-profit entities.
 
 * [Main Governance Document](governance.md)
 * [Current People](people.md)
+- [Code of Conduct](code-of-conduct.md)
 
 ## License of Governance Documents
 
