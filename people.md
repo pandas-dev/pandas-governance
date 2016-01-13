@@ -15,7 +15,7 @@ Wes McKinney is the Benevolent Dictator for Life (BDFL).
 - Jeff Reback
 - Skipper Seabold
 - Chang She
-- Sinhrks
+- Masaaki Horikoshi (@sinhrks)
 - Jeff Tratner
 - Joris Van den Bossche
 

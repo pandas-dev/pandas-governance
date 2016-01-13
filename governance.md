@@ -10,14 +10,14 @@ The Project
 ===========
 
 The pandas Project (The Project) is an open source software project affiliated
-with the 501c3 NumFocus Foundation. The goal of The Project is to develop open
+with the 501(c)3 NumFocus Foundation. The goal of The Project is to develop open
 source software for data ingest, data preparation, data analysis, and data
 visualization for the Python programming language. The Software developed by
 The Project is released under the BSD (or similar) open source license,
 developed openly and hosted in public GitHub repositories under the [PyData
 GitHub organization](https://github.com/pydata). Examples of Project Software
-include the pandas library, the pandas website, and the pandas-datareader
-add-on library.
+include the main pandas code repository, pandas-website, and the
+pandas-datareader add-on library.
 
 The Project is developed by a team of distributed developers, called
 Contributors. Contributors are individuals who have contributed code,
@@ -41,7 +41,7 @@ Contributors work on behalf of and are responsible to the larger Project
 Community and we strive to keep the barrier between Contributors and Users as
 low as possible.
 
-The Project is formally affiliated with the 501c3 NumFOCUS Foundation
+The Project is formally affiliated with the 501(c)3 NumFOCUS Foundation
 ([http://numfocus.org](http://numfocus.org)), which serves as its fiscal
 sponsor, may hold project trademarks and other intellectual property, helps
 manage project donations and acts as a parent legal entity. NumFOCUS is the
