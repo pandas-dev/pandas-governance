@@ -7,13 +7,13 @@ pandas is distributed under a 3-clause ("Simplified" or "New") BSD license.
 pandas license
 ==============
 
-Copyright (c) 2012-2016, pandas Development Team
+Copyright (c) 2012-2016, pandas Development Team.
 All rights reserved.
 
-Copyright (c) 2011-2012, Lambda Foundry, Inc. and pandas Development Team
+Copyright (c) 2011-2012, Lambda Foundry, Inc. and pandas Development Team.
 All rights reserved.
 
-Copyright (c) 2008-2011 AQR Capital Management, LLC
+Copyright (c) 2008-2011 AQR Capital Management, LLC.
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without

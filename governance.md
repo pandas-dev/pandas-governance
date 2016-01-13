@@ -282,8 +282,8 @@ situation, that part of the Partner’s work will not be under the pandas
 umbrella and cannot use the Project trademarks in a way that suggests a formal
 relationship.
 
-To acknowledge institutional contributions, there are two level of Institutional
-Partners, with associated benefits:
+To acknowledge institutional contributions, there are two levels of
+Institutional Partners, with associated benefits:
 
 **Tier 1** = an institution with at least one Institutional Core Team Member
 
