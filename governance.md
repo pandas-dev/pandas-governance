@@ -10,7 +10,7 @@ The Project
 ===========
 
 The pandas Project (The Project) is an open source software project affiliated
-with the 501(c)3 NumFocus Foundation. The goal of The Project is to develop open
+with the 501(c)3 NumFOCUS Foundation. The goal of The Project is to develop open
 source software for data ingest, data preparation, data analysis, and data
 visualization for the Python programming language. The Software developed by
 The Project is released under the BSD (or similar) open source license,
@@ -18,6 +18,9 @@ developed openly and hosted in public GitHub repositories under the [PyData
 GitHub organization](https://github.com/pydata). Examples of Project Software
 include the main pandas code repository, pandas-website, and the
 pandas-datareader add-on library.
+
+Through its affiliation with NumFOCUS, The Project has the right to receive
+tax-deductible donations in the United States of America.
 
 The Project is developed by a team of distributed developers, called
 Contributors. Contributors are individuals who have contributed code,
@@ -93,10 +96,12 @@ to any other Core Team Member at his/her discretion.
 
 The BDFL can appoint his/her successor, but it is expected that the Core Team
 would be consulted on this decision. If the BDFL is unable to appoint a
-successor (e.g. due to death or illness), the Core Team will make a suggestion
-or suggestions to the Project NumFOCUS Board. While the Core Team and Project
-NumFOCUS Board will work together closely on the BDFL selection process, the
-Project NumFOCUS Board will make the final decision.
+successor (e.g. due to death or illness), the Core Team will choose a successor
+by voting with at least 2/3 of the Core Team members voting in favor of the
+chosen successor. At least 80% of the Core Team must participate in the
+vote. If no BDFL candidate receives 2/3 of the votes of the Core Team, the Core
+Team members shall propose the BDFL candidates to the Main NumFOCUS board, who
+will then make the final decision.
 
 Core Team
 ---------
@@ -221,11 +226,10 @@ authority to someone else in full. It’s more like what Linus Torvalds uses wit
 The Core Team will maintain one narrowly focused subcommittee to manage its
 interactions with NumFOCUS.
 
-- The Project NumFOCUS Board is comprised of 5 persons who manage project
-  funding that comes through NumFOCUS. It is expected that these funds will
-  be spent in a manner that is consistent with the non-profit mission of
-  NumFOCUS and the direction of the Project as determined by the full
-  Core Team.
+- The NumFOCUS Subcommittee is comprised of 5 persons who manage project
+  funding that comes through NumFOCUS. It is expected that these funds will be
+  spent in a manner that is consistent with the non-profit mission of NumFOCUS
+  and the direction of the Project as determined by the full Core Team.
 - This Subcommittee shall NOT make decisions about the direction, scope or
   technical direction of the Project.
 - This Subcommittee will have 5 members. No more than 2 Subcommitee Members can
@@ -289,11 +293,17 @@ Institutional Partners, with associated benefits:
 
 - Acknowledged on the pandas website, in talks and T-shirts.
 - Ability to acknowledge their own funding sources on the pandas website, in
-    talks and T-shirts.
+  talks and T-shirts.
 - Ability to influence the project through the participation of their Core Team
-    Member.
+  Member.
 
 **Tier 2** = an institution with at least one Institutional Contributor
+
+Breach
+======
+
+Non-compliance with the terms of the governance documents shall be reported to
+the Core Team either through public or private channels as deemed appropriate.
 
 Changing the Governance Documents
 =================================

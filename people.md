@@ -19,7 +19,7 @@ Wes McKinney is the Benevolent Dictator for Life (BDFL).
 - Jeff Tratner
 - Joris Van den Bossche
 
-## Project NumFOCUS Board and Subcommittee
+## Project NumFOCUS Subcommittee
 
 - Phillip Cloud
 - Stephan Hoyer
