@@ -233,9 +233,9 @@ interactions with NumFOCUS.
 - This Subcommittee shall NOT make decisions about the direction, scope or
   technical direction of the Project.
 - This Subcommittee will have 5 members. No more than 2 Subcommitee Members can
-  report to one person through employment or contracting work (including the
-  reportee, i.e. the reportee + 1 is the max). This avoids effective
-  majorities resting on one person.
+  report to one person (either directly or indirectly) through employment or
+  contracting work (including the reportee, i.e. the reportee + 1 is the
+  max). This avoids effective majorities resting on one person.
 
 Institutional Partners and Funding
 ==================================
