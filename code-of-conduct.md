@@ -39,7 +39,11 @@ reported issues. The working group is made up of pandas contributors and users.
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported by contacting the working group. The working group currently includes
 
-- member / email
+- Safia Abdalla
+- Tom Augspurger
+- Joris Van den Bossche
+- Camille Scott
+- Nathaniel Smith
 
 All complaints will be reviewed and investigated and will result in a response
 that is deemed necessary and appropriate to the circumstances. Maintainers are
