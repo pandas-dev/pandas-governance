@@ -34,3 +34,9 @@ Wes McKinney is the Benevolent Dictator for Life (BDFL).
 - Joris Van den Bossche
 - Camille Scott
 - Nathaniel Smith
+
+## Institutional Partners
+
+### Tier 1
+
+- [Continuum Analytics](http://continuum.io/) (Jeff Reback, Joris Van den Bossche)
