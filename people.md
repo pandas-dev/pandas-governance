@@ -40,4 +40,4 @@ Wes McKinney is the Benevolent Dictator for Life (BDFL).
 ### Tier 1
 
 - [Continuum Analytics](https://www.continuum.io/) (Jeff Reback, Joris Van den Bossche)
-- [Two Sigma](https://www.twosigma.com/) (Wes McKinney)
+- [Two Sigma](https://www.twosigma.com/) (Wes McKinney, Phillip Cloud)
