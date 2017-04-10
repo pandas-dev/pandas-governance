@@ -12,12 +12,9 @@ Wes McKinney is the Benevolent Dictator for Life (BDFL).
 - Andy Hayden
 - Stephan Hoyer
 - Wes McKinney
-- Wouter Overmeire
 - Jeff Reback
-- Skipper Seabold
 - Chang She
 - Masaaki Horikoshi (@sinhrks)
-- Jeff Tratner
 - Joris Van den Bossche
 
 ## Project NumFOCUS Subcommittee
@@ -42,3 +39,9 @@ Wes McKinney is the Benevolent Dictator for Life (BDFL).
 
 - [Continuum Analytics](https://www.continuum.io/) (Jeff Reback, Joris Van den Bossche)
 - [Two Sigma](https://www.twosigma.com/) (Wes McKinney, Phillip Cloud)
+
+## Past Core Team Members
+
+- Wouter Overmeire
+- Skipper Seabold
+- Jeff Tratner
