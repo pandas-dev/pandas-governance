@@ -37,8 +37,9 @@ Wes McKinney is the Benevolent Dictator for Life (BDFL).
 
 ### Tier 1
 
-- [Continuum Analytics](https://www.continuum.io/) (Joris Van den Bossche)
+- [Anaconda, Inc.](https://www.anaconda.com/) (Tom Augspurger)
 - [Two Sigma](https://www.twosigma.com/) (Phillip Cloud, Wes McKinney, Jeff Reback)
+- [Paris-Saclay Center for Data Science](https://www.datascience-paris-saclay.fr/) (Joris Van den Bossche)
 
 ## Past Core Team Members
 
