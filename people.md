@@ -7,12 +7,18 @@ Wes McKinney is the Benevolent Dictator for Life (BDFL).
 ## Project Core Team
 
 - Tom Augspurger
+- William Ayd
 - Chris Bartak
+- Pietro Battiston
 - Phillip Cloud
+- Marc Garcia
 - Andy Hayden
 - Stephan Hoyer
 - Wes McKinney
+- Brock Mendel
 - Jeff Reback
+- Matthew Roeschke
+- Jeremy Schendel
 - Chang She
 - Masaaki Horikoshi (@sinhrks)
 - Joris Van den Bossche
