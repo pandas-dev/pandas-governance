@@ -14,9 +14,11 @@ Wes McKinney is the Benevolent Dictator for Life (BDFL).
 - Marc Garcia
 - Andy Hayden
 - Masaaki Horikoshi (@sinhrks)
+- Simon Hawkins
 - Stephan Hoyer
 - Wes McKinney
 - Brock Mendel
+- Terji Petersen
 - Jeff Reback
 - Matthew Roeschke
 - Jeremy Schendel
