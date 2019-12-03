@@ -33,6 +33,7 @@ Wes McKinney is the Benevolent Dictator for Life (BDFL).
 - Wes McKinney
 - Jeff Reback
 - Joris Van den Bossche
+- Tom Augspurger
 
 ## Code of Conduct Committee
 
