@@ -226,16 +226,17 @@ authority to someone else in full. It’s more like what Linus Torvalds uses wit
 The Core Team will maintain one narrowly focused subcommittee to manage its
 interactions with NumFOCUS.
 
-- The NumFOCUS Subcommittee is comprised of 5 persons who manage project
-  funding that comes through NumFOCUS. It is expected that these funds will be
-  spent in a manner that is consistent with the non-profit mission of NumFOCUS
-  and the direction of the Project as determined by the full Core Team.
+- The NumFOCUS Subcommittee is comprised of at least 5 persons who manage
+  project funding that comes through NumFOCUS. It is expected that these funds
+  will be spent in a manner that is consistent with the non-profit mission of
+  NumFOCUS and the direction of the Project as determined by the full Core
+  Team.
 - This Subcommittee shall NOT make decisions about the direction, scope or
   technical direction of the Project.
-- This Subcommittee will have 5 members. No more than 2 Subcommitee Members can
-  report to one person (either directly or indirectly) through employment or
-  contracting work (including the reportee, i.e. the reportee + 1 is the
-  max). This avoids effective majorities resting on one person.
+- This Subcommittee will have at least 5 members. No more than 2 Subcommitee
+  Members can report to one person (either directly or indirectly) through
+  employment or contracting work (including the reportee, i.e. the reportee + 1
+  is the max). This avoids effective majorities resting on one person.
 
 Institutional Partners and Funding
 ==================================
