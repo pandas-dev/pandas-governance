@@ -6,25 +6,7 @@ Wes McKinney is the Benevolent Dictator for Life (BDFL).
 
 ## Project Core Team
 
-- Tom Augspurger
-- William Ayd
-- Chris Bartak
-- Pietro Battiston
-- Phillip Cloud
-- Marc Garcia
-- Andy Hayden
-- Masaaki Horikoshi (@sinhrks)
-- Simon Hawkins
-- Stephan Hoyer
-- Wes McKinney
-- Brock Mendel
-- Terji Petersen
-- Jeff Reback
-- Matthew Roeschke
-- Jeremy Schendel
-- Chang She
-- Joris Van den Bossche
-- G. Young
+See [team](https://pandas.pydata.org/about/team.html) for up-to-date list of maintainers.
 
 ## Project NumFOCUS Subcommittee
 
@@ -51,6 +33,7 @@ Wes McKinney is the Benevolent Dictator for Life (BDFL).
 - [Two Sigma](https://www.twosigma.com/) (Phillip Cloud, Jeff Reback)
 - [RStudio](https://www.rstudio.com) (Wes McKinney)
 - [Ursa Labs](https://ursalabs.org) (Wes McKinney, Joris Van den Bossche)
+- [Gousto](https://www.gousto.co.uk/) (Marco Gorelli)
 
 ## Past Core Team Members
 
