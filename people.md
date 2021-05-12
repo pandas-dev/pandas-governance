@@ -6,7 +6,25 @@ Wes McKinney is the Benevolent Dictator for Life (BDFL).
 
 ## Project Core Team
 
-See [team](https://pandas.pydata.org/about/team.html) for up-to-date list of maintainers.
+- Tom Augspurger
+- William Ayd
+- Chris Bartak
+- Pietro Battiston
+- Phillip Cloud
+- Marc Garcia
+- Andy Hayden
+- Masaaki Horikoshi (@sinhrks)
+- Simon Hawkins
+- Stephan Hoyer
+- Wes McKinney
+- Brock Mendel
+- Terji Petersen
+- Jeff Reback
+- Matthew Roeschke
+- Jeremy Schendel
+- Chang She
+- Joris Van den Bossche
+- G. Young
 
 ## Project NumFOCUS Subcommittee
 
