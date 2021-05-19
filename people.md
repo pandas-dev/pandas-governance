@@ -60,3 +60,5 @@ Wes McKinney is the Benevolent Dictator for Life (BDFL).
 ## Past Institutional Partners
 
 - [Paris-Saclay Center for Data Science](https://www.datascience-paris-saclay.fr/)
+- [Anaconda, Inc.](https://www.anaconda.com/)
+- [RStudio](https://www.rstudio.com)
