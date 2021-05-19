@@ -47,9 +47,7 @@ Wes McKinney is the Benevolent Dictator for Life (BDFL).
 
 ### Tier 1
 
-- [Anaconda, Inc.](https://www.anaconda.com/) (Tom Augspurger, Brock Mendel)
-- [Two Sigma](https://www.twosigma.com/) (Phillip Cloud, Jeff Reback)
-- [RStudio](https://www.rstudio.com) (Wes McKinney)
+- [Two Sigma](https://www.twosigma.com/) (Jeff Reback)
 - [Ursa Labs](https://ursalabs.org) (Wes McKinney, Joris Van den Bossche)
 - [Gousto](https://www.gousto.co.uk/) (Marco Gorelli)
 
@@ -62,3 +60,5 @@ Wes McKinney is the Benevolent Dictator for Life (BDFL).
 ## Past Institutional Partners
 
 - [Paris-Saclay Center for Data Science](https://www.datascience-paris-saclay.fr/)
+- [Anaconda, Inc.](https://www.anaconda.com/)
+- [RStudio](https://www.rstudio.com)
