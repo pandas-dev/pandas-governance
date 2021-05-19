@@ -47,7 +47,7 @@ Wes McKinney is the Benevolent Dictator for Life (BDFL).
 
 ### Tier 1
 
-- [Two Sigma](https://www.twosigma.com/) (Phillip Cloud, Jeff Reback)
+- [Two Sigma](https://www.twosigma.com/) (Jeff Reback)
 - [Ursa Labs](https://ursalabs.org) (Wes McKinney, Joris Van den Bossche)
 - [Gousto](https://www.gousto.co.uk/) (Marco Gorelli)
 
