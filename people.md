@@ -50,6 +50,7 @@ Wes McKinney is the Benevolent Dictator for Life (BDFL).
 - [Two Sigma](https://www.twosigma.com/) (Jeff Reback)
 - [Ursa Labs](https://ursalabs.org) (Wes McKinney, Joris Van den Bossche)
 - [Gousto](https://www.gousto.co.uk/) (Marco Gorelli)
+- [d-fine GmbH](https://www.d-fine.com/en/) (Patrick Hoefler)
 
 ## Past Core Team Members
 
