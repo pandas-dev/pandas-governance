@@ -6,8 +6,8 @@ made and how the various elements of our community interact, including the relat
 between open source collaborative development and work that may be funded by for-profit
 or non-profit entities.
 
-Summary
-=======
+## Summary
+
 _pandas_ is a community-owned and community-run project. Major technical changes to the
 project are managed by the PDEP (pandas enhancement proposal) process, described in
 PDEP-1 at https://pandas.pydata.org/pdeps/0001-purpose-and-guidelines.html .  Because of
@@ -16,8 +16,7 @@ who each have responsibilities for different aspects of the project.  A Steering
 Committee, elected on an annual basis, coordinates the activities of the different
 teams.
 
-The Project
-===========
+## The Project
 
 The pandas Project (The Project) is an open source software project sponsored
 by the 501(c)3 NumFOCUS Foundation. NumFOCUS provides pandas with fiscal, legal, and
@@ -28,10 +27,9 @@ real world data analysis in Python. Additionally, it has the broader goal of bec
 the most powerful and flexible open source data analysis / manipulation tool available
 in any language. The Software developed by
 The Project is released under the BSD (or similar) open source license,
-developed openly and hosted on public GitHub repositories under the [`pandas-dev`
-GitHub organization](https://github.com/pandas-dev).  Examples of Project Software
-include the main pandas code repository, pandas website, `pandas-stubs` and the
-pandas-datareader add-on library.
+developed openly and hosted on public GitHub repositories under the [pandas
+GitHub organization](https://github.com/pandas-dev). Examples of Project Software
+include the main pandas code repository and the pandas-stubs library.
 
 The Project is developed by a team of distributed developers, called
 Contributors. Contributors are individuals who have contributed code,
@@ -43,20 +41,19 @@ open and public Project discussions on GitHub, mailing lists, and
 other channels. The foundation of Project participation is openness and
 transparency.
 
-
 The Project Community consists of all Contributors and Users of the Project.
 Contributors work on behalf of and are responsible to the larger Project
 Community and we strive to keep the barrier between Contributors and Users as
 low as possible.
+
 The Project is formally affiliated with the 501(c)3 NumFOCUS Foundation
-([http://numfocus.org](http://numfocus.org)), which serves as its fiscal
+([https://numfocus.org](https://numfocus.org)), which serves as its fiscal
 sponsor, may hold project trademarks and other intellectual property, helps
 manage project donations and acts as a parent legal entity. NumFOCUS is the
 only legal entity that has a formal relationship with the project (see
 Institutional Partners section below).
 
-Governance
-==========
+## Governance
 
 This section describes the governance and leadership model of The Project.
 
@@ -70,8 +67,7 @@ To manage the project, there are different Teams that each have responsibility f
 specific aspects of the project. Collectively, the members of all Teams are referred to
 as _Stewards_ of the project.
 
-Steering Committee
-==================
+### Steering Committee
 
 The role of the _pandas_ Steering Committee is to coordinate the activities of the
 different Teams and to ensure that different policies and procedures are carried out in
@@ -111,9 +107,7 @@ communications and decisions are needed, the Steering Committee will do its best
 summarize those to the Community after eliding personal/private/sensitive
 information that should not be posted to the public internet.
 
-
-Institutional Partners and Funding
-==================================
+## Institutional Partners and Funding
 
 The Stewards are the primary leaders of the project. No outside
 institution, individual or legal entity has the ability to own, control, usurp
@@ -171,25 +165,21 @@ A list of current Institutional Partners is maintained at the page
 https://pandas.pydata.org/about/sponsors.html .
 
 
-Document History
-================
+## Document History
 
 Original Version:  February 15, 2016
 Complete Revision:  ???, 2024
 
-Acknowledgments
-===============
+## Acknowledgments
 
 Portions of this document were adapted from the [NumPy governance document](https://numpy.org/doc/stable/dev/governance/governance.html).
 
-License
-=======
+## License
 
 To the extent possible under law, the authors have waived all copyright and related or neighboring rights to the pandas project governance and decision-making document, as per the [CC-0 public domain dedication / license](https://creativecommons.org/publicdomain/zero/1.0/).
 
 
-Notes
-=====
+## Notes
 
 The official version of this document, along with a list of
 individuals and institutions in the roles defined in the governance
