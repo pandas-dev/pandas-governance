@@ -4,20 +4,18 @@ The official version of this document, along with a list of
 individuals and institutions in the roles defined in the governance
 section below, is contained in The Project Governance Repository at:
 
-[https://github.com/pydata/pandas-governance](https://github.com/pydata/pandas-governance)
+[https://github.com/pandas-dev/pandas-governance](https://github.com/pandas-dev/pandas-governance)
 
-The Project
-===========
+## The Project
 
 The pandas Project (The Project) is an open source software project affiliated
 with the 501(c)3 NumFOCUS Foundation. The goal of The Project is to develop open
 source software for data ingest, data preparation, data analysis, and data
 visualization for the Python programming language. The Software developed by
 The Project is released under the BSD (or similar) open source license,
-developed openly and hosted in public GitHub repositories under the [PyData
-GitHub organization](https://github.com/pydata). Examples of Project Software
-include the main pandas code repository, pandas-website, and the
-pandas-datareader add-on library.
+developed openly and hosted in public GitHub repositories under the [pandas
+GitHub organization](https://github.com/pandas-dev). Examples of Project Software
+include the main pandas code repository and the pandas-stubs library.
 
 Through its affiliation with NumFOCUS, The Project has the right to receive
 tax-deductible donations in the United States of America.
@@ -34,7 +32,7 @@ transparency.
 
 Here is a list of the current Contributors to the main pandas repository:
 
-[https://github.com/pydata/pandas/graphs/contributors](https://github.com/pydata/pandas/graphs/contributors)
+[https://github.com/pandas-dev/pandas/graphs/contributors](https://github.com/pandas-dev/pandas/graphs/contributors)
 
 There are also many other Contributors listed in the logs of other repositories of
 the pandas project.
@@ -45,14 +43,13 @@ Community and we strive to keep the barrier between Contributors and Users as
 low as possible.
 
 The Project is formally affiliated with the 501(c)3 NumFOCUS Foundation
-([http://numfocus.org](http://numfocus.org)), which serves as its fiscal
+([https://numfocus.org](https://numfocus.org)), which serves as its fiscal
 sponsor, may hold project trademarks and other intellectual property, helps
 manage project donations and acts as a parent legal entity. NumFOCUS is the
 only legal entity that has a formal relationship with the project (see
 Institutional Partners section below).
 
-Governance
-==========
+## Governance
 
 This section describes the governance and leadership model of The Project.
 
@@ -76,8 +73,7 @@ need for a more formal governance model. Moving forward The Project leadership
 will consist of a BDFL and Core Team. We view this governance model as the
 formalization of what we are already doing, rather than a change in direction.
 
-BDFL
-----
+### BDFL
 
 The Project will have a BDFL (Benevolent Dictator for Life), who is currently
 Wes McKinney. As Dictator, the BDFL has the authority to make all final
@@ -103,8 +99,7 @@ vote. If no BDFL candidate receives 2/3 of the votes of the Core Team, the Core
 Team members shall propose the BDFL candidates to the Main NumFOCUS board, who
 will then make the final decision.
 
-Core Team
----------
+### Core Team
 
 The Project's Core Team will consist of Project Contributors who have produced
 contributions that are substantial in quality and quantity, and sustained over
@@ -133,7 +128,7 @@ In particular, the Core Team may:
     and merging pull requests.
 -   Make decisions about the Services that are run by The Project and manage
     those Services for the benefit of the Project and Community.
--   Make decisions when regular community discussion doesn’t produce consensus
+-   Make decisions when regular community discussion doesn't produce consensus
     on an issue in a reasonable time frame.
 
 ### Core Team membership
@@ -162,7 +157,7 @@ they will be considered for removal from the Core Team. Before removal,
 inactive Member will be approached by the BDFL to see if they plan on returning
 to active participation. If not they will be removed immediately upon a Core
 Team vote. If they plan on returning to active participation soon, they will be
-given a grace period of one year. If they don’t return to active participation
+given a grace period of one year. If they don't return to active participation
 within that time period they will be removed by vote of the Core Team without
 further grace period. All former Core Team members can be considered for
 membership again at any time in the future, like any other Project Contributor.
@@ -233,13 +228,12 @@ interactions with NumFOCUS.
   Team.
 - This Subcommittee shall NOT make decisions about the direction, scope or
   technical direction of the Project.
-- This Subcommittee will have at least 5 members. No more than 2 Subcommitee
+- This Subcommittee will have at least 5 members. No more than 2 Subcommittee
   Members can report to one person (either directly or indirectly) through
   employment or contracting work (including the reportee, i.e. the reportee + 1
   is the max). This avoids effective majorities resting on one person.
 
-Institutional Partners and Funding
-==================================
+## Institutional Partners and Funding
 
 The BDFL and Core Team are the primary leadership for the project. No outside
 institution, individual or legal entity has the ability to own, control, usurp
@@ -300,23 +294,21 @@ Institutional Partners, with associated benefits:
 
 **Tier 2** = an institution with at least one Institutional Contributor
 
-Breach
-======
+## Breach
 
 Non-compliance with the terms of the governance documents shall be reported to
 the Core Team either through public or private channels as deemed appropriate.
 
-Changing the Governance Documents
-=================================
+## Changing the Governance
 
 Changes to the governance documents are submitted via a GitHub pull request to
 The Project's governance documents GitHub repository at
-[https://github.com/pydata/pandas-governance](https://github.com/pydata/pandas-governance).
+[https://github.com/pandas-dev/pandas-governance](https://github.com/pandas-dev/pandas-governance).
 The pull request is then refined in response to public comment and review, with
 the goal being consensus in the community.  After this open period, a Core Team
 Member proposes to the Core Team that the changes be ratified and the pull
 request merged (accepting the proposed changes) or proposes that the pull
-request be closed without merging (rejecting the proposed changes).  The Member
+request be closed without merging (rejecting the proposed changes). The Member
 should state the final commit hash in the pull request being proposed for
 acceptance or rejection and briefly summarize the pull request. A minimum of
 80% of the Core Team must vote and at least 2/3 of the votes must be positive
