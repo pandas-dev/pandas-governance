@@ -6,8 +6,15 @@ made and how the various elements of our community interact, including the relat
 between open source collaborative development and work that may be funded by for-profit
 or non-profit entities.
 
-Summary
-=======
+
+The official version of this document, along with a list of
+individuals and institutions in the roles defined in the governance
+section below, is contained in The Project Governance Repository at:
+
+[https://github.com/pandas-dev/pandas-governance](https://github.com/pandas-dev/pandas-governance)
+
+## Summary
+
 _pandas_ is a community-owned and community-run project. Major technical changes to the
 project are managed by the PDEP (pandas enhancement proposal) process, described in
 PDEP-1 at https://pandas.pydata.org/pdeps/0001-purpose-and-guidelines.html .  Because of
@@ -16,8 +23,7 @@ who each have responsibilities for different aspects of the project.  A Steering
 Committee, elected on an annual basis, coordinates the activities of the different
 teams.
 
-The Project
-===========
+## The Project
 
 The pandas Project (The Project) is an open source software project sponsored
 by the 501(c)3 NumFOCUS Foundation. NumFOCUS provides pandas with fiscal, legal, and
@@ -30,8 +36,7 @@ in any language. The Software developed by
 The Project is released under the BSD (or similar) open source license,
 developed openly and hosted on public GitHub repositories under the [`pandas-dev`
 GitHub organization](https://github.com/pandas-dev).  Examples of Project Software
-include the main pandas code repository, pandas website, `pandas-stubs` and the
-pandas-datareader add-on library.
+include the main pandas code repository, pandas website, and the pandas-stubs library.
 
 The Project is developed by a team of distributed developers, called
 Contributors. Contributors are individuals who have contributed code,
@@ -49,14 +54,13 @@ Contributors work on behalf of and are responsible to the larger Project
 Community and we strive to keep the barrier between Contributors and Users as
 low as possible.
 The Project is formally affiliated with the 501(c)3 NumFOCUS Foundation
-([http://numfocus.org](http://numfocus.org)), which serves as its fiscal
+([https://numfocus.org](https://numfocus.org)), which serves as its fiscal
 sponsor, may hold project trademarks and other intellectual property, helps
 manage project donations and acts as a parent legal entity. NumFOCUS is the
 only legal entity that has a formal relationship with the project (see
 Institutional Partners section below).
 
-Governance
-==========
+## Governance
 
 This section describes the governance and leadership model of The Project.
 
@@ -70,8 +74,7 @@ To manage the project, there are different Teams that each have responsibility f
 specific aspects of the project. Collectively, the members of all Teams are referred to
 as _Stewards_ of the project.
 
-Steering Committee
-==================
+## Steering Committee
 
 The role of the _pandas_ Steering Committee is to coordinate the activities of the
 different Teams and to ensure that different policies and procedures are carried out in
@@ -80,8 +83,58 @@ except as detailed herein, although in exceptional circumstances it may be calle
 from time to time to make decisions that are in the best interest of The Project as a
 whole. The Steering Committee will itself decide when a circumstance is exceptional.
 
-**THE DETAILS OF THE STEERING COMMITTEE AND THE TEAMS AND WILL BE IN A SEPARATE
-PULL REQUEST**
+The Steering Committee may create a working group to consider changes to the governance
+model described in this document, including the creation of new Teams that support the
+goals of The Project. Changes to the governance model will require a voting process and
+approval equivalent to the process described in PDEP-1, with the exception that all
+Stewards are eligible to vote.  
+
+The Steering Committee may appoint temporary working groups to work on issues, such as
+governance, that fall outside the scope of responsibilities for the existing Teams.
+
+The ideal composition of the Steering Committee consists of 5 people.  The Steering
+Committee will be chosen via an approval voting process from a slate of nominees,
+meaning that each person who is eligible to vote may vote for more than one candidate
+from the slate.  
+
+### Initial Election
+
+The initial slate for the Steering Committee election will consist of 5 or more
+candidates who volunteer to be on the slate of candidates for the initial Steering
+Committee.  For the initial election, any candidate receiving more than 50% of the total
+number of members of the previous _pandas_ core team that register at least one vote
+will then become a member of the initial Steering Committee. 
+
+### Subsequent Elections  
+
+Subsequent changes to the membership of the Steering Committee will occur towards the
+end of each calendar year.  By November 30 of each year, each member of the Steering
+Committee will be asked if they would like to continue in that role. If any member
+decides to step down from the Steering Committee, new volunteers will be solicited from
+the group of stewards by the Steering Committee.  Those new volunteers will then be on a
+slate for an election that will occur by December 15 of that year.  For each year after
+the initial election, the current Steering Committee members plus any new volunteers on
+the slate will be elected via approval voting, with the top 5 candidates elected as
+Steering Committee members for the subsequent year.
+
+## Teams
+
+Each Team has defined responsibilities for different aspects of the project.  As a
+general rule, an Individual Contributor can be nominated by a member of a Team to become
+a member of that Team, and the Team must unanimously agree to admitting that person to
+the Team, since every Team member becomes a Steward of the Project. If a member of a
+Team is inactive for more than one year, the Team may unanimously decide to remove that
+person from the Team. Each Team will maintain its own private mailing list if the Team
+deems it to be necessary. There will also be a mailing list consisting of all Stewards
+of all Teams.
+
+Each Team has specific responsibilities as well as Permissions authorities, as defined
+below. In addition, specific criteria are used by Team Members to guide decisions on
+adding new Members to the Team.
+
+The description of each Team can be found in https://github.com/pandas-dev/pandas-governance/teams.md .
+
+**THE DETAILS OF THE TEAMS IN THAT DOCUMENT ARE IN A SEPARATE PULL REQUEST**
 
 ### Conflict of interest
 
@@ -112,8 +165,7 @@ summarize those to the Community after eliding personal/private/sensitive
 information that should not be posted to the public internet.
 
 
-Institutional Partners and Funding
-==================================
+## Institutional Partners and Funding
 
 The Stewards are the primary leaders of the project. No outside
 institution, individual or legal entity has the ability to own, control, usurp
@@ -171,28 +223,18 @@ A list of current Institutional Partners is maintained at the page
 https://pandas.pydata.org/about/sponsors.html .
 
 
-Document History
-================
+## Document History
 
 Original Version:  February 15, 2016
 Complete Revision:  ???, 2024
 
-Acknowledgments
-===============
+## Acknowledgments
 
 Portions of this document were adapted from the [NumPy governance document](https://numpy.org/doc/stable/dev/governance/governance.html).
 
-License
-=======
+## License
 
-To the extent possible under law, the authors have waived all copyright and related or neighboring rights to the pandas project governance and decision-making document, as per the [CC-0 public domain dedication / license](https://creativecommons.org/publicdomain/zero/1.0/).
+To the extent possible under law, the authors have waived all copyright and related or 
+neighboring rights to the pandas project governance and decision-making document,
+as per the [CC-0 public domain dedication / license](https://creativecommons.org/publicdomain/zero/1.0/).
 
-
-Notes
-=====
-
-The official version of this document, along with a list of
-individuals and institutions in the roles defined in the governance
-section below, is contained in The Project Governance Repository at:
-
-[https://github.com/pandas-dev/pandas-governance](https://github.com/pandas-dev/pandas-governance)
