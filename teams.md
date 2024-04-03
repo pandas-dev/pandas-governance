@@ -1,68 +1,7 @@
-# Information
+# Teams
 
-This document starting with "Steering Committee" will become part of the main 
-governance document, once approved.
-
-The first paragraph below is the same as in the pull request for the changes to
-the front and back matter.
-
-## Steering Committee
-
-The role of the _pandas _Steering Committee is to coordinate the activities of the
-different Teams and to ensure that different policies and procedures are carried out in
-a consistent manner. The Steering Committee has no routine decision-making authority,
-except as detailed herein, although in exceptional circumstances it may be called upon
-from time to time to make decisions that are in the best interest of The Project as a
-whole. The Steering Committee will itself decide when a circumstance is exceptional.
-
-The Steering Committee may create a working group to consider changes to the governance
-model described in this document, including the creation of new Teams that support the
-goals of The Project. Changes to the governance model will require a voting process and
-approval equivalent to the process described in PDEP-1, with the exception that all
-Stewards are eligible to vote.  
-
-The Steering Committee may appoint temporary working groups to work on issues, such as
-governance, that fall outside the scope of responsibilities for the existing Teams.
-
-The ideal composition of the Steering Committee consists of 5 people.  The Steering
-Committee will be chosen via an approval voting process from a slate of nominees,
-meaning that each person who is eligible to vote may vote for more than one candidate
-from the slate.  
-
-### Initial Election
-
-The initial slate for the Steering Committee election will consist of 5 or more
-candidates who volunteer to be on the slate of candidates for the initial Steering
-Committee.  For the initial election, any candidate receiving more than 50% of the total
-number of members of the previous _pandas_ core team that register at least one vote
-will then become a member of the initial Steering Committee. 
-
-### Subsequent Elections  
-
-Subsequent changes to the membership of the Steering Committee will occur towards the
-end of each calendar year.  By November 30 of each year, each member of the Steering
-Committee will be asked if they would like to continue in that role. If any member
-decides to step down from the Steering Committee, new volunteers will be solicited from
-the group of stewards by the Steering Committee.  Those new volunteers will then be on a
-slate for an election that will occur by December 15 of that year.  For each year after
-the initial election, the current Steering Committee members plus any new volunteers on
-the slate will be elected via approval voting, with the top 5 candidates elected as
-Steering Committee members for the subsequent year.
-
-## Teams
-
-Each Team has defined responsibilities for different aspects of the project.  As a
-general rule, an Individual Contributor can be nominated by a member of a Team to become
-a member of that Team, and the Team must unanimously agree to admitting that person to
-the Team, since every Team member becomes a Steward of the Project. If a member of a
-Team is inactive for more than one year, the Team may unanimously decide to remove that
-person from the Team. Each Team will maintain its own private mailing list if the Team
-deems it to be necessary. There will also be a mailing list consisting of all Stewards
-of all Teams.
-
-Each Team has specific responsibilities as well as Permissions authorities, as defined
-below. In addition, specific criteria are used by Team Members to guide decisions on
-adding new Members to the Team.
+This document describes the responsibilities, permissions and criteria for membership
+for each of the teams associated with the _pandas_ project.
 
 ### Core Library Team
 
