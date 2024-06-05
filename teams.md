@@ -28,7 +28,7 @@ underserved Team to another Team.
 * Review and Approve or Reject Pull Requests
     * Current guidelines on merging PRs:
       [https://pandas.pydata.org/docs/dev/development/maintaining.html#merging-pull-requests](https://pandas.pydata.org/docs/dev/development/maintaining.html#merging-pull-requests)
-* Build and Distribute Releases of the _pandas_ library
+* Finalizes Releases of the _pandas_ library
 
 #### Permissions
 
@@ -93,6 +93,7 @@ underserved Team to another Team.
 
 * Keep the pandas infrastructure up and working, including the servers for the website,
   benchmarks, CI and others as needed.
+* Build and Distribute Releases of the _pandas_ library
 * Decisions on platform support
 * Manage the 1Password repository
 
