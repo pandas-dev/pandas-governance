@@ -132,11 +132,15 @@ any number of multiple terms, provided that they are re-elected in each annual e
 
 Each Team has defined responsibilities for different aspects of the project.  As a
 general rule, an Individual Contributor can be nominated by a member of a Team to become
-a member of that Team, and the Team must unanimously agree to admitting that person to
+a member of that Team, and the Team must agree to admitting that person to
 the Team, since every Team member becomes a Steward of the Project. If a member of a
 Team is inactive for more than one year, the active members of the Team 
-may unanimously decide to remove that
-person from the Team. Each Team will maintain its own private mailing list if the Team
+may decide to remove that
+person from the Team. 
+Decisions about admittance or removal of Team members should be made by the Team as a
+whole, as long as there are no objections from active team members.
+
+Each Team will maintain its own private mailing list if the Team
 deems it to be necessary. There will also be a mailing list consisting of all Stewards
 of all Teams.
 
