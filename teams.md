@@ -1,13 +1,28 @@
 # Teams
 
 This document describes the responsibilities, permissions and criteria for membership
-for each of the teams associated with the _pandas_ project.
+for each of the Teams associated with the _pandas_ project.  The Teams are:
+
+- Core library Team
+- pandas-stubs Team
+- Finance Team
+- Infrastructure Team
+- Documentation Team
+- Code of Conduct Team
+- Triage Team
+- Contributor Community Team
+- Website Team
+- Outreach Team
+
+Individuals may be on more than one Team.  If it is difficult to find enough people
+for any particular Team, the Steering Committee may assign the responsibilities of that
+underserved Team to another Team.
 
 ### Core Library Team
 
 #### Responsibilities
 
-* Maintain and develop the _pandas _library (the
+* Maintain and develop the _pandas_ library (the
   [https://github.com/pandas-dev/pandas/](https://github.com/pandas-dev/pandas/)
   repository)
 * Review and Approve or Reject Pull Requests
@@ -17,13 +32,13 @@ for each of the teams associated with the _pandas_ project.
 
 #### Permissions
 
-* Has permission to merge anything to the main branch of the _pandas _repository
+* Has permission to merge anything to the main branch of the _pandas_ repository
 * Only Team with PDEP voting rights
 
 #### Criteria for Membership
 
 * New Members are nominated after a period of sustained and qualitative contributions
-    * Joining heuristic: "is there some aspect of _pandas _where we trust this person to
+    * Joining heuristic: "is there some aspect of _pandas_ where we trust this person to
       get something in without anyone's help?".
     * An existing Member of the Team proposes to promote a new member
 * [https://pandas.pydata.org/docs/dev/development/maintaining.html#becoming-a-pandas-maintainer](https://pandas.pydata.org/docs/dev/development/maintaining.html#becoming-a-pandas-maintainer)
@@ -96,11 +111,11 @@ for each of the teams associated with the _pandas_ project.
 
 #### Responsibilities
 
-* Maintain the pandas documentation and its (building) infrastructure
+* Maintain the pandas documentation and its (building, e.g. Sphinx) infrastructure
 
 #### Permissions
 
-* Permission to merge to the main branch of the _pandas _repository, with the criteria
+* Permission to merge to the main branch of the _pandas_ repository, with the criteria
   that it is a DOC only PR.
 
 #### Criteria for Membership
@@ -112,7 +127,7 @@ for each of the teams associated with the _pandas_ project.
 
 #### Responsibilities
 
-* Make sure the _pandas _community is a welcoming and inclusive community.
+* Make sure the _pandas_ community is a welcoming and inclusive community.
 * Keeping the Code of Conduct
   ([https://pandas.pydata.org/community/coc.html](https://pandas.pydata.org/community/coc.html))
   updated
@@ -182,7 +197,7 @@ for each of the teams associated with the _pandas_ project.
 
 #### Permissions
 
-* Permission to merge to the main branch of the _pandas _repository, with the criteria
+* Permission to merge to the main branch of the _pandas_ repository, with the criteria
   that it is a WEBSITE only PR.
 * Login credentials for the web server
 
@@ -190,11 +205,11 @@ for each of the teams associated with the _pandas_ project.
 
 #### Responsibilities
 
-* Announce new _pandas _releases on social channels
+* Announce new _pandas_ releases on social channels
 * Announce other pandas-related news, such as:
     * Recurring meetings
     * Events (such as sprints)
-    * Blog posts (related to _pandas_) by _pandas _members
+    * Blog posts (related to _pandas_) by _pandas_ members
 * Keep communication on-topic. It doesn’t all have to be completely serious, but it
   should be on-topic - let’s not use the social accounts for political soapboxing
 * Be respectful of other projects: open source, closed source, etc…they all have real
