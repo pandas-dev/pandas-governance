@@ -18,10 +18,10 @@ section below, is contained in The Project Governance Repository at:
 _pandas_ is a community-owned and community-run project. Major technical changes to the
 project are managed by the PDEP (pandas enhancement proposal) process, described in
 PDEP-1 at https://pandas.pydata.org/pdeps/0001-purpose-and-guidelines.html .  Because of
-the large scope of the project, the project is managed by a number of different teams,
+the large scope of the project, the project is managed by a number of different Teams,
 who each have responsibilities for different aspects of the project.  A Steering
 Committee, elected on an annual basis, coordinates the activities of the different
-teams.
+Teams.
 
 ## The Project
 
@@ -138,7 +138,7 @@ Team is inactive for more than one year, the active members of the Team
 may decide to remove that
 person from the Team. 
 Decisions about admittance or removal of Team members should be made by the Team as a
-whole, as long as there are no objections from active team members.
+whole, as long as there are no objections from active Team members.
 
 Each Team will maintain its own private mailing list if the Team
 deems it to be necessary. There will also be a mailing list consisting of all Stewards
@@ -148,9 +148,10 @@ Each Team has specific responsibilities as well as authorities over permissions,
 defined below. In addition, specific criteria are used by Team Members to guide
 decisions on adding new Members to the Team.
 
-The description of each Team can be found in https://github.com/pandas-dev/pandas-governance/teams.md .
+The Steering Committee has the authority to change the responsibilities of individual
+Teams, remove or consolidate Teams. 
 
-**THE DETAILS OF THE TEAMS IN THAT DOCUMENT ARE IN A SEPARATE PULL REQUEST**
+The description of each Team can be found in https://github.com/pandas-dev/pandas-governance/teams.md .
 
 ### Conflict of interest
 
