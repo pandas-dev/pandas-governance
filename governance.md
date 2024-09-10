@@ -1,4 +1,11 @@
-# Main Governance Document
+# _pandas_ Project Governance and Decision-Making
+
+The purpose of this document is to formalize the governance process used by the pandas
+project in both ordinary and extraordinary situations, and to clarify how decisions are
+made and how the various elements of our community interact, including the relationship
+between open source collaborative development and work that may be funded by for-profit
+or non-profit entities.
+
 
 The official version of this document, along with a list of
 individuals and institutions in the roles defined in the governance
@@ -6,19 +13,30 @@ section below, is contained in The Project Governance Repository at:
 
 [https://github.com/pandas-dev/pandas-governance](https://github.com/pandas-dev/pandas-governance)
 
+## Summary
+
+_pandas_ is a community-owned and community-run project. Major technical changes to the
+project are managed by the PDEP (pandas enhancement proposal) process, described in
+PDEP-1 at https://pandas.pydata.org/pdeps/0001-purpose-and-guidelines.html .  Because of
+the large scope of the project, the project is managed by a number of different Teams,
+who each have responsibilities for different aspects of the project.  A Steering
+Committee, elected on an annual basis, coordinates the activities of the different
+Teams.
+
 ## The Project
 
-The pandas Project (The Project) is an open source software project affiliated
-with the 501(c)3 NumFOCUS Foundation. The goal of The Project is to develop open
-source software for data ingest, data preparation, data analysis, and data
-visualization for the Python programming language. The Software developed by
+The pandas Project (The Project) is an open source software project sponsored
+by the 501(c)3 NumFOCUS Foundation. NumFOCUS provides pandas with fiscal, legal, and
+administrative support to help ensure the health and sustainability of the project.
+The goal of The Project is to develop open
+source software that is the fundamental high-level building block for doing practical,
+real world data analysis in Python. Additionally, it has the broader goal of becoming
+the most powerful and flexible open source data analysis / manipulation tool available
+in any language. The Software developed by
 The Project is released under the BSD (or similar) open source license,
-developed openly and hosted in public GitHub repositories under the [pandas
-GitHub organization](https://github.com/pandas-dev). Examples of Project Software
-include the main pandas code repository and the pandas-stubs library.
-
-Through its affiliation with NumFOCUS, The Project has the right to receive
-tax-deductible donations in the United States of America.
+developed openly and hosted on public GitHub repositories under the [`pandas-dev`
+GitHub organization](https://github.com/pandas-dev).  Examples of Project Software
+include the main pandas code repository, pandas website, and the pandas-stubs library.
 
 The Project is developed by a team of distributed developers, called
 Contributors. Contributors are individuals who have contributed code,
@@ -27,15 +45,8 @@ Anyone can be a Contributor. Contributors can be affiliated with any legal
 entity or none. Contributors participate in the project by submitting,
 reviewing and discussing GitHub Pull Requests and Issues and participating in
 open and public Project discussions on GitHub, mailing lists, and
-elsewhere. The foundation of Project participation is openness and
+other channels. The foundation of Project participation is openness and
 transparency.
-
-Here is a list of the current Contributors to the main pandas repository:
-
-[https://github.com/pandas-dev/pandas/graphs/contributors](https://github.com/pandas-dev/pandas/graphs/contributors)
-
-There are also many other Contributors listed in the logs of other repositories of
-the pandas project.
 
 The Project Community consists of all Contributors and Users of the Project.
 Contributors work on behalf of and are responsible to the larger Project
@@ -59,120 +70,94 @@ The foundations of Project governance are:
 -   Active Contribution
 -   Institutional Neutrality
 
-Traditionally, Project leadership was provided by a BDFL (Wes McKinney) and
-subset of Contributors, called the Core Team, whose active and consistent
-contributions have been recognized by their receiving “commit rights” to the
-Project GitHub repositories. In general all Project decisions are made through
-consensus among the Core Team with input from the Community. The BDFL can, but
-rarely chooses to, override the Core Team and make a final decision on a
-matter.
+To manage the project, there are different Teams that each have responsibility for
+specific aspects of the project. Collectively, the members of all Teams are referred to
+as _Stewards_ of the project.  Individuals may be members of more than one Team.
 
-While this approach has served us well, as the Project grows and faces more
-legal and financial decisions and interacts with other institutions, we see a
-need for a more formal governance model. Moving forward The Project leadership
-will consist of a BDFL and Core Team. We view this governance model as the
-formalization of what we are already doing, rather than a change in direction.
+## Steering Committee
 
-### BDFL
+The role of the _pandas_ Steering Committee is to coordinate the activities of the
+different Teams and to ensure that different policies and procedures are carried out in
+a consistent manner. The Steering Committee has no routine decision-making authority,
+except as detailed herein, although in exceptional circumstances it may be called upon
+from time to time to make decisions that are in the best interest of The Project as a
+whole. The Steering Committee will itself decide when a circumstance is exceptional.
+The Steering Committee may not override a PDEP.  When the Steering Committee meets to
+discuss an issue, the members of the Steering Committee are responsible for soliciting
+input from members of the relevant Teams.
 
-The Project will have a BDFL (Benevolent Dictator for Life), who is currently
-Wes McKinney. As Dictator, the BDFL has the authority to make all final
-decisions for The Project. As Benevolent, the BDFL, in practice chooses to
-defer that authority to the consensus of the community discussion channels and
-the Core Team. It is expected, and in the past has been the case, that the BDFL
-will only rarely assert his/her final authority. Because it is rarely used, we
-refer to BDFL’s final authority as a “special” or “overriding” vote. When it
-does occur, the BDFL override typically happens in situations where there is a
-deadlock in the Core Team or if the Core Team ask the BDFL to make a decision
-on a specific matter. To ensure the benevolence of the BDFL, The Project
-encourages others to fork the project if they disagree with the overall
-direction the BDFL is taking. The BDFL is chair of the Core Team (see below)
-and may delegate his/her authority on a particular decision or set of decisions
-to any other Core Team Member at his/her discretion.
+The Steering Committee may create a working group to consider changes to the governance
+model described in this document, including the creation of new Teams that support the
+goals of The Project. Changes to the governance model will require a voting process and
+approval equivalent to the process described in PDEP-1, with the exception that all
+Stewards are eligible to vote.  
 
-The BDFL can appoint his/her successor, but it is expected that the Core Team
-would be consulted on this decision. If the BDFL is unable to appoint a
-successor (e.g. due to death or illness), the Core Team will choose a successor
-by voting with at least 2/3 of the Core Team members voting in favor of the
-chosen successor. At least 80% of the Core Team must participate in the
-vote. If no BDFL candidate receives 2/3 of the votes of the Core Team, the Core
-Team members shall propose the BDFL candidates to the Main NumFOCUS board, who
-will then make the final decision.
+The Steering Committee may appoint temporary working groups to work on issues, such as
+governance, that fall outside the scope of responsibilities for the existing Teams.
 
-### Core Team
+The ideal composition of the Steering Committee consists of 5 people.  The Steering
+Committee will be chosen via an approval voting process from a slate of nominees,
+meaning that each person who is eligible to vote may vote for more than one candidate
+from the slate.  All members of each Team, except the Code of Conduct Team, are 
+eligible to vote.  
 
-The Project's Core Team will consist of Project Contributors who have produced
-contributions that are substantial in quality and quantity, and sustained over
-at least one year. The overall role of the Core Team is to ensure, through
-working with the BDFL and taking input from the Community, the long-term
-well-being of the project, both technically and as a community.
+### Initial Election
 
-During the everyday project activities, Core Team participate in all
-discussions, code review and other project activities as peers with all other
-Contributors and the Community. In these everyday activities, Core Team do not
-have any special power or privilege through their membership on the Core
-Team. However, it is expected that because of the quality and quantity of their
-contributions and their expert knowledge of the Project Software that the Core
-Team will provide useful guidance, both technical and in terms of project
-direction, to potentially less experienced contributors.
+The initial slate for the Steering Committee election will consist of 5 or more
+candidates who volunteer to be on the slate of candidates for the initial Steering
+Committee.  For the initial election, the members of the previous _pandas_ core team
+will vote via an approval voting process.  The top 5 candidates receiving votes
+will then become members of the initial Steering Committee. 
 
-The Core Team and its Members play a special role in certain situations.
-In particular, the Core Team may:
+### Subsequent Elections  
 
--   Make decisions about the overall scope, vision and direction of the
-    project.
--   Make decisions about strategic collaborations with other organizations or
-    individuals.
--   Make decisions about specific technical issues, features, bugs and pull
-    requests. They are the primary mechanism of guiding the code review process
-    and merging pull requests.
--   Make decisions about the Services that are run by The Project and manage
-    those Services for the benefit of the Project and Community.
--   Make decisions when regular community discussion doesn't produce consensus
-    on an issue in a reasonable time frame.
+Subsequent changes to the membership of the Steering Committee will occur towards the
+end of each calendar year.  By October 31 of each year, each member of the Steering
+Committee will be asked if they would like to continue in that role. If any member
+decides to step down from the Steering Committee, new volunteers will be solicited from
+the group of stewards by the Steering Committee.  Those new volunteers, along with any
+current Steering Committee members who wish to remain on the Steering Committee,
+will then be on a
+slate for an election that will occur by November 15 of that year.  For each year after
+the initial election, the current Steering Committee members plus any new volunteers on
+the slate will be elected via approval voting, with the top 5 candidates elected as
+Steering Committee members for the subsequent year.
 
-### Core Team membership
+The terms of each member of the Steering Committee are from January
+1 to December 31 of each calendar year, and Steering Committee members may serve for
+any number of multiple terms, provided that they are re-elected in each annual election.
 
-To become eligible for being a Core Team Member an individual must be a Project
-Contributor who has produced contributions that are substantial in quality and
-quantity, and sustained over at least one year. Potential Core Team Members are
-nominated by existing Core members and voted upon by the existing Core Team
-after asking if the potential Member is interested and willing to serve in that
-capacity. The Core Team will be initially formed from the set of existing
-Contributors who have been granted commit rights as of late 2015.
 
-When considering potential Members, the Core Team will look at candidates with
-a comprehensive view of their contributions. This will include but is not
-limited to code, code review, infrastructure work, mailing list and chat
-participation, community help/building, education and outreach, design work,
-etc. We are deliberately not setting arbitrary quantitative metrics (like “100
-commits in this repo”) to avoid encouraging behavior that plays to the metrics
-rather than the project’s overall well-being. We want to encourage a diverse
-array of backgrounds, viewpoints and talents in our team, which is why we
-explicitly do not define code as the sole metric on which Core Team membership
-will be evaluated.
+## Teams
 
-If a Core Team member becomes inactive in the project for a period of one year,
-they will be considered for removal from the Core Team. Before removal,
-inactive Member will be approached by the BDFL to see if they plan on returning
-to active participation. If not they will be removed immediately upon a Core
-Team vote. If they plan on returning to active participation soon, they will be
-given a grace period of one year. If they don't return to active participation
-within that time period they will be removed by vote of the Core Team without
-further grace period. All former Core Team members can be considered for
-membership again at any time in the future, like any other Project Contributor.
-Retired Core Team members will be listed on the project website, acknowledging
-the period during which they were active in the Core Team.
+Each Team has defined responsibilities for different aspects of the project.  As a
+general rule, an Individual Contributor can be nominated by a member of a Team to become
+a member of that Team, and the Team must agree to admitting that person to
+the Team, since every Team member becomes a Steward of the Project. If a member of a
+Team is inactive for more than one year, the active members of the Team 
+may decide to remove that
+person from the Team. 
+Decisions about admittance or removal of Team members should be made by the Team as a
+whole, as long as there are no objections from active Team members.
 
-The Core Team reserves the right to eject current Members, other than the BDFL,
-if they are deemed to be actively harmful to the project’s well-being, and
-attempts at communication and conflict resolution have failed.
+Each Team will maintain its own private mailing list if the Team
+deems it to be necessary. There will also be a mailing list consisting of all Stewards
+of all Teams.
+
+Each Team has specific responsibilities as well as authorities over permissions, as
+defined below. In addition, specific criteria are used by Team Members to guide
+decisions on adding new Members to the Team.
+
+The Steering Committee has the authority to change the responsibilities of individual
+Teams, remove or consolidate Teams. 
+
+The description of each Team can be found in https://github.com/pandas-dev/pandas-governance/teams.md .
 
 ### Conflict of interest
 
-It is expected that the BDFL and Core Team Members will be employed at a wide
+It is expected that all Stewards will be employed at a wide
 range of companies, universities and non-profit organizations. Because of this,
-it is possible that Members will have conflict of interests. Such conflict of
+it is possible that Stewards will have conflict of interests. Such conflict of
 interests include, but are not limited to:
 
 -   Financial interests, such as investments, employment or contracting work,
@@ -180,93 +165,58 @@ interests include, but are not limited to:
 -   Access to proprietary information of their employer that could potentially
     leak into their work with the Project.
 
-All members of the Core Team, BDFL included, shall disclose to the rest of the
-Core Team any conflict of interest they may have. Members with a conflict of
-interest in a particular issue may participate in Core Team discussions on that
-issue, but must recuse themselves from voting on the issue. If the BDFL has
-recused his/herself for a particular decision, they will appoint a substitute
-BDFL for that decision.
+All Stewards shall disclose to the Steering Committee
+any conflict of interest they may have. Stewards with a conflict of
+interest in a particular issue may participate in Team discussions on that
+issue, but must recuse themselves from voting on the issue, if such
+a vote is necessary.  If a conflict of interest is not disclosed and later uncovered,
+it will be left to the Steering Committee to decide how to handle the lack of disclosure
+on a case-by-case basis
 
-### Private communications of the Core Team
+### Private communications of the Steering Committee
 
-Unless specifically required, all Core Team discussions and activities will be
+To the maximum extent possible, Team discussions and activities will be
 public and done in collaboration and discussion with the Project Contributors
-and Community. The Core Team will have a private mailing list that will be used
+and Community. The Steering Committee will have a private mailing list that will be used
 sparingly and only when a specific matter requires privacy. When private
-communications and decisions are needed, the Core Team will do its best to
+communications and decisions are needed, the Steering Committee will do its best to
 summarize those to the Community after eliding personal/private/sensitive
 information that should not be posted to the public internet.
 
-### Subcommittees
-
-The Core Team can create subcommittees that provide leadership and guidance for
-specific aspects of the project. Like the Core Team as a whole, subcommittees
-should conduct their business in an open and public manner unless privacy is
-specifically called for. Private subcommittee communications should happen on
-the main private mailing list of the Core Team unless specifically called for.
-
-Question: if the BDFL is not on a subcommittee, do they still have override
-authority?
-
-Suggestion: they do, but they should appoint a delegate who plays that role
-most of the time, and explicit BDFL intervention is sought only if the
-committee disagrees with that delegate’s decision and no resolution is possible
-within the team. This is different from a BDFL delegate for a specific decision
-(or a recusal situation), where the BDFL is literally giving up his/her
-authority to someone else in full. It’s more like what Linus Torvalds uses with his
-“lieutenants” model.
-
-### NumFOCUS Subcommittee
-
-The Core Team will maintain one narrowly focused subcommittee to manage its
-interactions with NumFOCUS.
-
-- The NumFOCUS Subcommittee is comprised of at least 5 persons who manage
-  project funding that comes through NumFOCUS. It is expected that these funds
-  will be spent in a manner that is consistent with the non-profit mission of
-  NumFOCUS and the direction of the Project as determined by the full Core
-  Team.
-- This Subcommittee shall NOT make decisions about the direction, scope or
-  technical direction of the Project.
-- This Subcommittee will have at least 5 members. No more than 2 Subcommittee
-  Members can report to one person (either directly or indirectly) through
-  employment or contracting work (including the reportee, i.e. the reportee + 1
-  is the max). This avoids effective majorities resting on one person.
-
 ## Institutional Partners and Funding
 
-The BDFL and Core Team are the primary leadership for the project. No outside
+The Stewards are the primary leaders of the project. No outside
 institution, individual or legal entity has the ability to own, control, usurp
 or influence the project other than by participating in the Project as
-Contributors and Core Team. However, because institutions are the primary
+Contributors and Stewards. However, because institutions can be an important
 funding mechanism for the project, it is important to formally acknowledge
 institutional participation in the project. These are Institutional Partners.
-
 An Institutional Contributor is any individual Project Contributor who
 contributes to the project as part of their official duties at an Institutional
-Partner. Likewise, an Institutional Core Team Member is any Core Team Member
+Partner. Likewise, an Institutional Steward is any Steward
 who contributes to the project as part of their official duties at an
 Institutional Partner.
-
 With these definitions, an Institutional Partner is any recognized legal entity
 in the United States or elsewhere that employs at least one Institutional
-Contributor or Institutional Core Team Member. Institutional Partners can be
+Contributor or Institutional Steward. Institutional Partners can be
 for-profit or non-profit entities.
-
 Institutions become eligible to become an Institutional Partner by employing
 individuals who actively contribute to The Project as part of their official
 duties. To state this another way, the only way for an Institutional Partner to
 influence the project is by actively contributing to the open development of
 the project, on equal terms with any other member of the community of
-Contributors and Core Team Members. Merely using pandas Software or Services in
+Contributors and Stewards. Merely using Project Software in
 an institutional context does not allow an entity to become an Institutional
-Partner. Financial gifts do not enable an entity to become an Institutional
+Partner. Financial gifts, which are recognized on the _pandas_ web site,
+do not enable an entity to become an Institutional
 Partner. Once an institution becomes eligible for Institutional Partnership,
-the Core Team must nominate and approve the Partnership.
-
-If an existing Institutional Partner no longer has a contributing employee,
-they will be given a one-year grace period for other employees to begin
-contributing.
+the Steering Committee must nominate and approve the Partnership, after soliciting
+input from the Stewards.
+If at some point an existing Institutional Partner stops having any contributing
+employees, then a one year grace period commences. If at the end of this one year period
+they continue to not have any contributing employees, then their Institutional
+Partnership will lapse, and resuming it will require going through the normal process
+for new Partnerships.
 
 An Institutional Partner is free to pursue funding for their work on The
 Project through any legal means. This could involve a non-profit organization
@@ -274,45 +224,36 @@ raising money from private foundations and donors or a for-profit company
 building proprietary products and services that leverage Project Software and
 Services. Funding acquired by Institutional Partners to work on The Project is
 called Institutional Funding. However, no funding obtained by an Institutional
-Partner can override The Project BDFL and Core Team. If a Partner has funding
-to do pandas work and the Core Team decides to not pursue that work as a
+Partner can override the Steering Committee. If a Partner has funding
+to do pandas work and the Steering Committee decides to not pursue that work as a
 project, the Partner is free to pursue it on their own. However in this
 situation, that part of the Partner’s work will not be under the pandas
 umbrella and cannot use the Project trademarks in a way that suggests a formal
 relationship.
 
-To acknowledge institutional contributions, there are two levels of
-Institutional Partners, with associated benefits:
+Institutional Partner benefits are:
 
-**Tier 1** = an institution with at least one Institutional Core Team Member
-
-- Acknowledged on the pandas website, in talks and T-shirts.
-- Ability to acknowledge their own funding sources on the pandas website, in
+- Acknowledged on the _pandas_ website, in talks and T-shirts.
+- Ability to acknowledge their own funding sources on the _pandas_ websites, in
   talks and T-shirts.
-- Ability to influence the project through the participation of their Core Team
-  Member.
+- Ability to influence the project through the participation of their Steward.
 
-**Tier 2** = an institution with at least one Institutional Contributor
+A list of current Institutional Partners is maintained at the page
+https://pandas.pydata.org/about/sponsors.html .
 
-## Breach
 
-Non-compliance with the terms of the governance documents shall be reported to
-the Core Team either through public or private channels as deemed appropriate.
+## Document History
 
-## Changing the Governance
+Original Version:  February 15, 2016
+Complete Revision:  ???, 2024
 
-Changes to the governance documents are submitted via a GitHub pull request to
-The Project's governance documents GitHub repository at
-[https://github.com/pandas-dev/pandas-governance](https://github.com/pandas-dev/pandas-governance).
-The pull request is then refined in response to public comment and review, with
-the goal being consensus in the community.  After this open period, a Core Team
-Member proposes to the Core Team that the changes be ratified and the pull
-request merged (accepting the proposed changes) or proposes that the pull
-request be closed without merging (rejecting the proposed changes). The Member
-should state the final commit hash in the pull request being proposed for
-acceptance or rejection and briefly summarize the pull request. A minimum of
-80% of the Core Team must vote and at least 2/3 of the votes must be positive
-to carry out the proposed action (fractions of a vote rounded up to the nearest
-integer). Since the BDFL holds ultimate authority in The Project, the BDFL has
-authority to act alone in accepting or rejecting changes or overriding Core
-Team decisions.
+## Acknowledgments
+
+Portions of this document were adapted from the [NumPy governance document](https://numpy.org/doc/stable/dev/governance/governance.html).
+
+## License
+
+To the extent possible under law, the authors have waived all copyright and related or 
+neighboring rights to the pandas project governance and decision-making document,
+as per the [CC-0 public domain dedication / license](https://creativecommons.org/publicdomain/zero/1.0/).
+
