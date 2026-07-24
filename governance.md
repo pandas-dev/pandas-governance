@@ -81,10 +81,15 @@ different Teams and to ensure that different policies and procedures are carried
 a consistent manner. The Steering Committee has no routine decision-making authority,
 except as detailed herein, although in exceptional circumstances it may be called upon
 from time to time to make decisions that are in the best interest of The Project as a
-whole. The Steering Committee will itself decide when a circumstance is exceptional.
+whole. 
 The Steering Committee may not override a PDEP.  When the Steering Committee meets to
 discuss an issue, the members of the Steering Committee are responsible for soliciting
 input from members of the relevant Teams.
+
+Exceptional circumstances include:
+- Disagreement between Teams about a particular issue that requires resolution by the Steering Committee
+- An issue arises for which no Team has clear responsibility 
+- An issue requiring an urgent decision, in which case all Stewards will be notified
 
 The Steering Committee may create a working group to consider changes to the governance
 model described in this document, including the creation of new Teams that support the
@@ -245,7 +250,8 @@ https://pandas.pydata.org/about/sponsors.html .
 ## Document History
 
 Original Version:  February 15, 2016
-Complete Revision:  ???, 2024
+Complete Revision:  September 10, 2024
+Changes Regarding Exceptional Circumstances:  ???
 
 ## Acknowledgments
 
